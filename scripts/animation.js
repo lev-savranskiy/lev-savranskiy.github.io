@@ -6,8 +6,11 @@ var Animation = (function() {
     largeHeader = document.getElementById('header');
 
     width = window.getComputedStyle(largeHeader).width.slice(0, -2);
-    height = window.getComputedStyle(largeHeader).height.slice(0, -2);
+    height = 150;
     target = { x: width / 2, y: height / 2 };
+
+    //console.log('zzzz');
+    //console.log(height);
 
     canvas = document.getElementById('header-canvas');
     canvas.width = width;
