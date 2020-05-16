@@ -347,7 +347,6 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    /*background: url(../images/item-3.jpg);*/
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -395,7 +394,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/cover.jpg);
+	background: url(//dl.dropboxusercontent.com/s/63puxq2n28g2i8x/cover.jpg?dl=0);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -409,7 +408,7 @@ textarea.form-control {
 
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("../images/pattern.png");
+    background-image: url("//dl.dropboxusercontent.com/s/x76t1cm5vk8fu46/pattern.png?dl=0");
     background-repeat: repeat;
     height: 100%;
     left: 0;
@@ -732,7 +731,7 @@ textarea.form-control {
 }
 
 #status {
-	background-image: url(../images/preloader.gif);
+	background-image: url(//dl.dropboxusercontent.com/s/d8nobayrg6ne2u0/preloader.gif?dl=0);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 200px;
