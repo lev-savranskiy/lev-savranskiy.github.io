@@ -168,6 +168,8 @@
             	return false;
 			});
 
+		 $('#copyright_year').text('zzz');
+
 	});
 
 })(jQuery);
