@@ -168,7 +168,7 @@
             	return false;
 			});
 
-		 $('#copyright_year').text('zzz');
+		 $('#copyright_year').text(new Date().getFullYear());
 
 	});
 
