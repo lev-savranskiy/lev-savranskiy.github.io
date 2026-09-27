@@ -72,6 +72,15 @@ a.underline {
 	text-decoration: underline;
 }
 
+.grid {
+	text-shadow:
+			-1px -1px 0 #aaa,
+			1px -1px 0 #aaa,
+			-1px  1px 0 #aaa,
+			1px  1px 0 #aaa;
+	/*-webkit-text-stroke: 2px black;*/
+}
+
 /* ---------------------------------------------- /*
  * Transition elsements
 /* ---------------------------------------------- */
@@ -851,7 +860,7 @@ figure.effect-bubba img {
 }
 
 figure.effect-bubba:hover img {
-	opacity: 0.4;
+	opacity: 0.35;
 }
 
 figure.effect-bubba figcaption::before,
