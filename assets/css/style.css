@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+/* Raleway is loaded from index.html with font-display: swap */
 /*@import url(http://fonts.googleapis.com/css?family=Lobster);*/
 
 /*!
@@ -403,7 +403,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(//dl.dropboxusercontent.com/s/63puxq2n28g2i8x/cover.jpg?dl=0);
+	background: url(../images/cover.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -417,7 +417,7 @@ textarea.form-control {
 
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("//dl.dropboxusercontent.com/s/x76t1cm5vk8fu46/pattern.png?dl=0");
+    background-image: url("../images/pattern.png");
     background-repeat: repeat;
     height: 100%;
     left: 0;
@@ -740,7 +740,7 @@ textarea.form-control {
 }
 
 #status {
-	background-image: url(//dl.dropboxusercontent.com/s/d8nobayrg6ne2u0/preloader.gif?dl=0);
+	background-image: url(../images/preloader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 200px;
@@ -899,7 +899,7 @@ figure.effect-bubba h2 {
     color: #fff;
 }
 
-figure.effect-bubba p, h2 {
+figure.effect-bubba p, figure.effect-bubba h2 {
 	padding: 20px 2.5em;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -1006,3 +1006,28 @@ figure.effect-bubba:hover p {
 }
 
 
+
+
+/* ---- Accessibility: contrast (WCAG AA) ---- */
+a.underline { color: #c62828; }
+.project-title span { color: #595959; }
+.project-stack { color: #c62828; }
+#experience h3 small { color: #595959; }
+.cbp-qtrotator blockquote p { color: #595959; }
+.cbp-qtrotator blockquote footer { color: #595959; }
+
+/* Section spacing: tighter on small screens; clear floats inside headers */
+.pfblock-header:after { content: ""; display: table; clear: both; }
+@media (max-width: 767px) {
+	.pfblock { padding: 60px 0 50px; }
+	.pfblock-header { margin-bottom: 24px; }
+	.pfblock-title { font-size: 24px; }
+}
+
+/* Equal-height service cards (tablet and up) */
+@media (min-width: 768px) {
+	.iconbox-row { display: flex; flex-wrap: wrap; }
+	.iconbox-row:before, .iconbox-row:after { display: none; }
+	.iconbox-row > [class*="col-"] { display: flex; }
+	.iconbox-row .iconbox { width: 100%; }
+}

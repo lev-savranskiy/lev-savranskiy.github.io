@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lev.js.org/sitemap.xml
