@@ -1009,9 +1009,9 @@ figure.effect-bubba:hover p {
 
 
 /* ---- Accessibility: contrast (WCAG AA) ---- */
-a.underline { color: #c62828; }
+a.underline { color: #1a5fb4; }
 .project-title span { color: #595959; }
-.project-stack { color: #c62828; }
+.project-stack { color: #1a5fb4; }
 #experience h3 small { color: #595959; }
 .cbp-qtrotator blockquote p { color: #595959; }
 .cbp-qtrotator blockquote footer { color: #595959; }
@@ -1031,3 +1031,10 @@ a.underline { color: #c62828; }
 	.iconbox-row > [class*="col-"] { display: flex; }
 	.iconbox-row .iconbox { width: 100%; }
 }
+
+/* Palette: deep teal accent on light backgrounds, light mint on dark ones */
+a.underline:hover { color: #0f3d78; }
+.pfblock-image a.underline,
+.calltoaction a.underline { color: #9ecbff; }
+.pfblock-image a.underline:hover,
+.calltoaction a.underline:hover { color: #fff; }
